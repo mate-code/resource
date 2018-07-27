@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<soapenv:root xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+              xmlns:web="http://localhost/"
+              xmlns:book="http://localhost/books">
+    <web:total>3</web:total>
+    <web:averagePrice>18.23</web:averagePrice>
+    <web:owner>Flourish and Blotts</web:owner>
+    <web:isOpen>true</web:isOpen>
+    <web:books>
+        <book:book>
+            <book:title>Lord Of The Rings</book:title>
+            <book:author>J.R.R. Tolkien</book:author>
+            <book:year>1954</book:year>
+            <book:genre>Fantasy</book:genre>
+            <book:language/>
+            <book:price>24.9</book:price>
+            <book:inStock>true</book:inStock>
+        </book:book>
+        <book:book>
+            <book:title>The Hitchhiker's Guide To The Galaxy</book:title>
+            <book:author>Douglas Adams</book:author>
+            <book:year>1979</book:year>
+            <book:genre>Science Fiction, Comedy</book:genre>
+            <book:language/>
+            <book:price>19.9</book:price>
+            <book:inStock>false</book:inStock>
+        </book:book>
+        <book:book>
+            <book:title>Faust</book:title>
+            <book:author>Johann Wolfgang Von Goethe</book:author>
+            <book:year>1808</book:year>
+            <book:genre>Classic</book:genre>
+            <book:language>German</book:language>
+            <book:price>9.9</book:price>
+            <book:inStock>true</book:inStock>
+        </book:book>
+    </web:books>
+</soapenv:root>

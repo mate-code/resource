@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="test/Bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="All">
+            <directory>./test/MateTest/Resource</directory>
+        </testsuite>
+        <testsuite name="ArrayResource">
+            <file>./test/MateTest/Resource/ArrayResourceTest.php</file>
+        </testsuite>
+        <testsuite name="CsvResource">
+            <file>./test/MateTest/Resource/CsvResourceTest.php</file>
+        </testsuite>
+        <testsuite name="EdiResource">
+            <file>./test/MateTest/Resource/EdiResourceTest.php</file>
+            <file>./test/MateTest/Resource/EdiSegmentResourceTest.php</file>
+            <file>./test/MateTest/Resource/EdiCompositeResourceTest.php</file>
+        </testsuite>
+        <testsuite name="JsonResource">
+            <file>./test/MateTest/Resource/JsonResourceTest.php</file>
+        </testsuite>
+        <testsuite name="ObjectResource">
+            <file>./test/MateTest/Resource/ObjectResourceTest.php</file>
+        </testsuite>
+        <testsuite name="XmlResource">
+            <file>./test/MateTest/Resource/XMLResourceTest.php</file>
+            <file>./test/MateTest/Resource/NamespaceXMLResourceTest.php</file>
+        </testsuite>
+        <testsuite name="Helper">
+            <file>./test/MateTest/Resource/Helper/IteratorsTest.php</file>
+            <file>./test/MateTest/Resource/Helper/PathTest.php</file>
+            <file>./test/MateTest/Resource/Helper/StructureTest.php</file>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./src</directory>
+        </whitelist>
+    </filter>
+</phpunit>

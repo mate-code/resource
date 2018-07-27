@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <total>3</total>
+    <averagePrice>18.23</averagePrice>
+    <owner>Flourish and Blotts</owner>
+    <isOpen>true</isOpen>
+    <books>
+        <book>
+            <title>Lord Of The Rings</title>
+            <author>J.R.R. Tolkien</author>
+            <year>1954</year>
+            <genre>Fantasy</genre>
+            <language/>
+            <price>24.9</price>
+            <inStock>true</inStock>
+        </book>
+        <book>
+            <title>The Hitchhiker's Guide To The Galaxy</title>
+            <author>Douglas Adams</author>
+            <year>1979</year>
+            <genre>Science Fiction, Comedy</genre>
+            <language/>
+            <price>19.9</price>
+            <inStock>false</inStock>
+        </book>
+        <book>
+            <title>Faust</title>
+            <author>Johann Wolfgang Von Goethe</author>
+            <year>1808</year>
+            <genre>Classic</genre>
+            <language>German</language>
+            <price>9.9</price>
+            <inStock>true</inStock>
+        </book>
+    </books>
+</root>
