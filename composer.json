@@ -1,13 +1,12 @@
 {
-  "name": "modolib/resource",
-  "description": "Intern PHP library modolib/resource",
-  "homepage": "http://modotex.com",
+  "name": "mate-code/resource",
+  "description": "Objects for representation of various data files",
   "license": "proprietary",
   "type": "library",
   "authors": [
     {
       "name": "Marius Teller",
-      "email": "marius.teller@modotex.com",
+      "email": "marius.teller@mail.de",
       "role": "Developer"
     }
   ],
